@@ -1,13 +1,7 @@
 package HomeWorkUN3;
 
-    import java.util.Scanner;
-    import java.util.Random;
-    import java.util.Arrays;
-
 
 public class HomeWork3 {
-    public static Scanner scanner = new Scanner(System.in);
-    public static Random random = new Random();
 
     public static void main(String[] args) {
 //1 Задать целочисленный массив, состоящий из элементов 0 и 1. Например:
