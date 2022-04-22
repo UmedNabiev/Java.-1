@@ -92,7 +92,7 @@ public class HomeWork3 {
 
     }
 
-// ��������������� ����� ��� ������� #5.
+// Вспомогательный метод для задания #5.
     public static void printArray1(String msg, int[] inputArray) {
         System.out.print(msg + ": ");
         for (int i = 0; i < inputArray.length; i++) {
