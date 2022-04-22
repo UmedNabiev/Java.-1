@@ -2,7 +2,6 @@ package HomeWorkUN3;
 
 public class HomeWork3 {
     public static void main(String[] args) {
-
 //* 1. Создать массив, состоящий из элементов 0 и 1, например, [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ].
 //     С помощью цикла и условия заменить 0 на 1, 1 на 0;
         int[] mass = {1, 1, 0, 0, 1, 0, 1, 1, 0, 1};
@@ -21,7 +20,7 @@ public class HomeWork3 {
         System.out.println();
         System.out.println("***************");
 
-//* 2. Задать пустой целочисленный массив длиной 100. С помощью цикла заполнить его значениями 1 2 3 4 5 6 7 8 … 100;
+//* 2. Set an empty integer array of length 100. Use a loop to fill it with values 1 2 3 4 5 6 7 8 … 100;
         int[] array = new int[100];
         int j = 1;
         int maxMass1 = array.length;
