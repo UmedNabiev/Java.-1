@@ -1,4 +1,4 @@
-package HomeWorkApp_UN;
+п»їpackage HomeWorkApp_UN;
 
 public class HomeWorkApp_UN {
     public static void main(String[] args) {
@@ -18,18 +18,18 @@ public class HomeWorkApp_UN {
         int a = 25;
         int b = -29;
         if ((a + b) >= 0) {
-            System.out.println("Сумма положительная");}
-        else {System.out.println("Сумма отрицательная");}
+            System.out.println("РЎСѓРјРјР° РїРѕР»РѕР¶РёС‚РµР»СЊРЅР°СЏ");}
+        else {System.out.println("РЎСѓРјРјР° РѕС‚СЂРёС†Р°С‚РµР»СЊРЅР°СЏ");}
     }
 
     private static void printColor() {
         int value = 125;
         if (value <= 0) {
-            System.out.println("Красный");
+            System.out.println("РљСЂР°СЃРЅС‹Р№");
         } else if (value > 0 && value <= 100) {
-            System.out.println("Желтый");
+            System.out.println("Р–РµР»С‚С‹Р№");
         } else if (value > 100) {
-            System.out.println("Зеленый");
+            System.out.println("Р—РµР»РµРЅС‹Р№");
         }
     }
     private static void compareNumbers() {
