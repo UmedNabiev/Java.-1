@@ -67,9 +67,9 @@ public class HomeWork3 {
 
 //* 5. Написать метод, принимающий на вход два аргумента: len и initialValue, и возвращающий одномерный массив типа int длиной len, каждая ячейка которого равна initialValue;
 
-        int[] returnArrayFromMethod = returnArray(5, 250);
+        int[] returnArrayFromMethod = returnArray(8, 48);
         printArray1("5. Array from method", returnArrayFromMethod);
-        printArray1("5. Array from method", returnArray(5, 250));
+        printArray1("5. Array from method", returnArray(8, 48));
 
         System.out.println("***************");
 
@@ -96,7 +96,7 @@ public class HomeWork3 {
     public static void printArray1(String msg, int[] inputArray) {
         System.out.print(msg + ": ");
         for (int i = 0; i < inputArray.length; i++) {
-            System.out.print(inputArray[i] + " ");
+            System.out.print(inputArray[i] + "|" + " ");
         }
         System.out.println();
         }
