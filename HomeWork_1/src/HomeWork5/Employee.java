@@ -1,7 +1,7 @@
 package HomeWork5;
 
 public class Employee {
-// 1. Создать класс "Сотрудник" с полями: ФИО, должность, email, телефон, зарплата, возраст.
+// 1. Create class "Employee" with fields: Full name, Position, email, Phone number, Salary, Age.
 private static final int CURRENT_YEAR = 2022;
 
     String FirstName;
@@ -12,7 +12,7 @@ private static final int CURRENT_YEAR = 2022;
     int Salary;
     int birthYear;
 
-// 2.	Конструктор класса должен заполнять эти поля при создании объекта;
+// 2.	The class constructor should fill in these fields when the object is created;
 
     public Employee(String FirstName,
                     String FamilyName,
@@ -29,7 +29,7 @@ private static final int CURRENT_YEAR = 2022;
         this.Salary = Salary;
         this.birthYear = birthYear;
 }
-// 3. Внутри класса «Сотрудник» написать метод, который выводит информацию об объекте в консоль.
+// 3. Within the class "Employee" write a method, which will display the information about the object in console.
     int getAge() {
         return CURRENT_YEAR - birthYear;
     }
