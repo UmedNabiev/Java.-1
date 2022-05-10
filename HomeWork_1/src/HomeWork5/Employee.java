@@ -1,16 +1,16 @@
 package HomeWork5;
 
 public class Employee {
-// 1. Create class "Employee" with fields: Full name, Position, email, Phone number, Salary, Age.
+// 1. Create class "Employee" with fields: Full name, Position, email, Phone number, Salary, Age (возраст).
 private static final int CURRENT_YEAR = 2022;
 
-    String FirstName;
-    String FamilyName;
-    String Position;
-    String email;
-    String PhoneNumber;
-    int Salary;
-    int birthYear;
+    private String FirstName;
+    private String FamilyName;
+    private String Position;
+    private String email;
+    private String PhoneNumber;
+    private int Salary;
+    private int birthYear;
 
 // 2.	The class constructor should fill in these fields when the object is created;
 
