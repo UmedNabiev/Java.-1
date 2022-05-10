@@ -7,7 +7,7 @@ public class HR {
                 "Data analyst", "nabiev-u@mail.ru",
                 "8 (927) 555-44-33", 60000, 1986);
 
-// 4. Create massive consisted of 5 employees
+// 4. Создать массив из 5 сотрудников.
         Employee[] office = {
                 mainEmployee,
                 new Employee("Ivan", "Ivanov",
@@ -29,7 +29,7 @@ public class HR {
         getOldPerson(office, 40);
 
     }
-// 5. Using a cycle, display information only about employees over 40 years old
+// 5. С помощью цикла вывести информацию только о сотрудниках старше 40 лет
     private static void getOldPerson(Employee[] office, int year) {
         for (int i = 0; i < office.length; i++)
             if (office[i].getAge() > year) {
