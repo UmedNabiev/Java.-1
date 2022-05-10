@@ -1,7 +1,7 @@
 package HomeWork5;
 
 public class Employee {
-// 1. Create class "Employee" with fields: Full name, Position, email, Phone number, Salary (зарплата), Age.
+// 1. Create class "Employee" with fields: Full name, Position, email, Phone number, Salary (Р·Р°СЂРїР»Р°С‚Р°), Age.
 private static final int CURRENT_YEAR = 2022;
 
     private String FirstName;
